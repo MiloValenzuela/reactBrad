@@ -11,3 +11,4 @@ We'll learn about Tanstack Query by building a Github profile finder project. We
 So that's a quick rundown of this course. Again, whether you're brand new to React or you've been using it and want to learn how to use it in different environments, you're in the right place.
 
 Let's get started!
+
