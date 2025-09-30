@@ -1,6 +1,12 @@
-const name = 'John';
-const age = 30;
+const formatDate = (timestamp) => {
+    const data = new Date(timestamp);
 
-const greeting = `Hello, my name is ${name} and I am ${age} years old`;
+    return `${date.toLocaleDateString()} at ${date.toLocaleTimeString()}`;
+};
 
-console.log(greeting);
+const note = {
+    title: 'Discuss project',
+    timestamp: Date.now()
+};
+
+console.log(`Last Edited: ${formatDate(note.timestamp)}`);
